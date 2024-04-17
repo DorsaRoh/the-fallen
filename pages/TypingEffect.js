@@ -2,18 +2,14 @@
 import React from "react";
 import Typewriter from 'typewriter-effect';
 
-export default function TypingEffect({ text }) {
+
+export default function TypingEffect({ text, textStyle }) {
   return (
-    <div>
+    <div style={textStyle}>
       <Typewriter
         onInit={(typewriter) => {
-          typewriter.typeString(text) // Pass the string directly
+          typewriter.typeString(text)
             .pauseFor(2500)
-            // uncomment if want text to delete
-            // .deleteAll()
-            // .callFunction(() => {
-            //   console.log('All strings were deleted');
-            // })
             .start();
         }}
       />
