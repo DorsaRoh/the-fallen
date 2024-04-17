@@ -1,23 +1,10 @@
 import { useState } from 'react';
 import Head from 'next/head';
 import styles from '../styles/Home.module.css';
+import TypingEffect from './TypingEffect';
 
 export default function Home() {
-  const [text, setText] = useState('');
-  const txt = 'Lorem ipsum dummy text blabla.';
-  const speed = 50;
-
-  const typeWriter = () => {
-    let i = 0;
-    const interval = setInterval(() => {
-      if (i < txt.length) {
-        setText((prevText) => prevText + txt.charAt(i));
-        i++;
-      } else {
-        clearInterval(interval);
-      }
-    }, speed);
-  };
+  
 
   return (
     <div className={styles.container}>
@@ -26,8 +13,8 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main>
-        <button onClick={typeWriter}>Click me</button>
-        <p>{text}</p>
+        <TypingEffect text="hi"/>
+        <TypingEffect text="asdasdkja"/>
       </main>
 
       <footer>
