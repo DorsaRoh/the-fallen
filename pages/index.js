@@ -6,11 +6,11 @@ import GlitchText from './components/GlitchText';
 
 export default function Home() {
   const texts = [
-    { text: "asdnhbfwejdfhewndbfewj m ", style: {} },
-    { text: "The world as you knew it had ended--not with asadasdasd", style: {} },
-    { text: "iunjedhfrefnjdsihfjewdfehasdasdasd ", style: {} },
-    { text: "Text 2", style: { color: "green" } },
-    { text: "Text 2", style: { color: "green" } },
+    { text: "Text 1", style: {} },
+    { text: "Text 2", style: {} },
+    { text: "Text 3", style: {} },
+    { text: "Text 4", style: { color: "green" } },
+    { text: "Etc..", style: { color: "green" } },
     // Additional texts...
   ];
 
@@ -34,7 +34,9 @@ export default function Home() {
         <title>Template</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <GlitchText text="Title (Glitched Effect)" className={styles.title} />
+      <div className={styles.topTitle}>
+        <GlitchText text="Title (Glitched Effect)"/>
+      </div>
       <div className={styles.textContainer}>
         {texts.map((item, index) => (
           <div key={index} style={{ display: index === currentIndex ? 'block' : 'none' }} className={styles.textEntry}>
@@ -44,10 +46,10 @@ export default function Home() {
       </div>
       <div className={styles.buttonContainer}>
         <button className={styles.btn} onClick={handleBackButtonClick} disabled={currentIndex === 0}>
-          Back
+        <GlitchText text="⟵ back"></GlitchText>
         </button>
         <button className={styles.btn} onClick={handleNextButtonClick} disabled={currentIndex === texts.length - 1}>
-          Next ➫
+        <GlitchText text="next ⟶"></GlitchText>
         </button>
       </div>
     </div>

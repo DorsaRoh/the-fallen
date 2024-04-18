@@ -12,6 +12,7 @@ function MyApp({ Component, pageProps }) {
             overflow-x: hidden;
             overflow-y: hidden;
             background: black;
+            font-family:"Jersey 10";
           }
         `}</style>
       </Head>

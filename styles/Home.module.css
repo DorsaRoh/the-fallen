@@ -7,14 +7,14 @@
   height: 100vh; /* Using the full viewport height */
   align-items: center;
   justify-content: space-between; /* Separates the text and button */
-  font-family: "Rubik Glitch";
   font-size: 40px;
   color: white;
 }
 
-.title {
-  margin-bottom: 100px;
-  margin-top: 500px;
+.topTitle{
+  margin-top: 5%;
+  font-size: 30px;
+  font-family: "Rubik Glitch";
 }
 
 .textContainer {
@@ -23,7 +23,7 @@
   padding: 20px;
   margin-left:20%;
   margin-right:20%;
-  mask-image: linear-gradient(to bottom, transparent, black 10%, black 100%);
+  mask-image: linear-gradient(transparent,  black 10%, transparent);
   scrollbar-width: none;
   line-height:1.7em;
   margin-bottom:2%;
@@ -40,22 +40,16 @@
   overflow-x: hidden; /* Prevent horizontal scrolling */
 }
 
-.buttonContainer {
-  display: flex; /* Ensures buttons are displayed in a row */
-  justify-content: space-between; /* Aligns buttons at each end of the container */
-  width: 100%; /* Ensure buttons span the width of the container */
-}
-
 .btn {
   padding: 10px 20px;
   margin-top: 30px; /* Space above the button */
-  margin-bottom: 100px; /* Space below the button */
+  margin-bottom: 50px; /* Space below the button */
   font-size: 30px;
   color: white;
   background: transparent;
   border: none;
   cursor: pointer;
-  font-family: "Rubik Glitch";
+  font-family:"Rubik Glitch";
 }
 
 @media (max-width: 768px) {
