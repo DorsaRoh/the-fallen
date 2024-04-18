@@ -1,3 +1,8 @@
+.main{
+  background-color: #060505;
+  width:100%;
+  height:100%;
+}
 
 .container {
   min-height: 100vh;
@@ -18,27 +23,6 @@
   margin-bottom: 10px;
 }
 
-
-/* Cyber Vectors */
-.path {
-  animation: draw 15s infinite;
-  animation-timing-function: linear;
-}
-
-.path-2 {
-  animation: draw 20s infinite;
-  animation-delay: 0.5s;
-  animation-timing-function: linear;
-}
-
-@keyframes draw {
-  0% {
-  }
-  100% {
-    stroke-dashoffset: 0;
-    stroke-opacity: 1;
-  }
-}
 
 @media (max-width: 600px) {
   .grid {
