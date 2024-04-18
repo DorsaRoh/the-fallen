@@ -1,4 +1,6 @@
 
+./* Credit to Alexandre Rivaux for Glitch Effect */
+
 import React, { useEffect } from 'react';
 
 const chars = "☺Σ×Π#-_¯—→↓↑←0123456789ABCDEFGHIJKLMNOPQRSTUVWXTZ";
