@@ -22,7 +22,9 @@ export default function Home() {
 
   return (
     <div className={styles.container}>
-        <GlitchText text="Your Glitch Text Here" />
+      <div className={styles.title}>
+        <GlitchText text="Title (Glitched Effect)" />
+      </div>
 
       <Head>
         <title>Create Next App</title>
