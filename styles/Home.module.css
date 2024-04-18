@@ -1,36 +1,107 @@
-.container {
- 
-}
-
-.title{
-  margin:10px;
-}
+/* Import fonts globally in _app.js or a global CSS file to avoid repeating imports */
+@import url('https://fonts.googleapis.com/css2?family=Jersey+10&family=Libre+Barcode+39&family=Ojuju:wght@200..800&family=Orbitron:wght@400..900&family=Oxanium:wght@200..800&family=Rubik+Glitch&display=swap');
 
 .container {
-  min-height: 100vh;
-  padding: 0 0.5rem;
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  height: 100vh; /* Using the full viewport height */
   align-items: center;
+  justify-content: space-between; /* Separates the text and button */
+  font-family: "Rubik Glitch";
+  font-size: 40px;
+  color: white;
 }
 
-/* Button */
-.btn{
-  color:rgb(6, 6, 6);
-  background:white;
+.title {
+  margin-bottom: 100px;
+  margin-top: 500px;
 }
 
 .textContainer {
-  margin-bottom: 10px;
+  position: relative;
+  overflow-y: auto;
+  padding: 20px;
+  margin-left:20%;
+  margin-right:20%;
+  mask-image: linear-gradient(to bottom, transparent, black 10%, black 100%);
+  scrollbar-width: none;
+  line-height:1.7em;
+  margin-bottom:2%;
+  margin-top:2%;
+}
+
+.textEntry {
+  word-wrap: break-word; 
+  max-width: 100%;        
 }
 
 
-@media (max-width: 600px) {
-  .grid {
-    width: 100%;
-    flex-direction: column;
+.textContainer {
+  overflow-x: hidden; /* Prevent horizontal scrolling */
+}
+
+.buttonContainer {
+  display: flex; /* Ensures buttons are displayed in a row */
+  justify-content: space-between; /* Aligns buttons at each end of the container */
+  width: 100%; /* Ensure buttons span the width of the container */
+}
+
+.btn {
+  padding: 10px 20px;
+  margin-top: 30px; /* Space above the button */
+  margin-bottom: 100px; /* Space below the button */
+  font-size: 30px;
+  color: white;
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  font-family: "Rubik Glitch";
+}
+
+@media (max-width: 768px) {
+  .textContainer {
+    padding: 10px 5px;
+    margin-top: 20px;
+    height: 75vh; /* Adjust height for smaller screens */
+  }
+
+  .container {
+    font-size: 30px; /* Smaller font size for better readability on smaller screens */
+  }
+
+  .title {
+    margin-bottom: 50px;
+    margin-top: 200px;
+  }
+
+  .btn {
+    padding: 8px 16px;
+    margin-top: 20px;
+    margin-bottom: 50px;
+    font-size: 24px; /* Smaller font size for button on smaller screens */
   }
 }
 
+@media (max-width: 480px) {
+  .textContainer {
+    padding: 5px 2px;
+    margin-top: 10px;
+    height: 65vh; /* Further adjust height for very small screens */
+  }
 
+  .container {
+    font-size: 24px; /* Even smaller font size for smallest screens */
+  }
+
+  .title {
+    margin-bottom: 30px;
+    margin-top: 100px;
+  }
+
+  .btn {
+    padding: 5px 10px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    font-size: 20px; /* Even smaller font size for button */
+  }
+}
