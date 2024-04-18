@@ -1,5 +1,5 @@
 
-./* Credit to Alexandre Rivaux for Glitch Effect */
+/* Credit to Alexandre Rivaux for Glitch Effect */
 
 import React, { useEffect } from 'react';
 
