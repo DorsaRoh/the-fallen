@@ -1,6 +1,3 @@
-
-/* Credit to Alexandre Rivaux for Glitch Effect */
-
 import React, { useEffect } from 'react';
 
 const chars = "☺Σ×Π#-_¯—→↓↑←0123456789ABCDEFGHIJKLMNOPQRSTUVWXTZ";
@@ -17,6 +14,7 @@ function Glitch(selector, index, numberOfGlitchedLetter, timeGlitch, timePerLett
   this.timePerLetter = timePerLetter;
   this.maxCount = Math.floor(this.timeGlitch / this.timePerLetter);
   this.count = 0;
+  this.interval = null; // Store interval reference
 }
 
 Glitch.prototype.init = function() {
@@ -48,13 +46,15 @@ Glitch.prototype.randomize = function() {
   this.selector.innerText = randomString.join("");
 }
 
-Glitch.prototype.update = function(interval) {
+Glitch.prototype.update = function() {
   if (this.count >= this.maxCount - 1) {
+    clearInterval(this.interval); // Clear interval
     this.selector.innerText = this.innerText;
     this.defineCharIndexToRandomize();
     let ctx = this;
     let wait = setTimeout(function() {
       ctx.count = 0;
+      ctx.glitch(); // Restart glitch effect after pause
     }, this.timeBetweenGlitch);
   } else {
     this.randomize();
@@ -64,8 +64,8 @@ Glitch.prototype.update = function(interval) {
 
 Glitch.prototype.glitch = function() {
   let ctx = this;
-  let interval = setInterval(function() {
-    ctx.update(this);
+  this.interval = setInterval(function() {
+    ctx.update();
   }, this.timePerLetter);
 }
 
@@ -77,13 +77,19 @@ const GlitchText = ({ text }) => {
     for (let i = 0; i < arrayElements.length; i++) {
       let selector = arrayElements[i];
       let randLetterNumber = 2 + Math.floor(Math.random() * 8);
-      let randGlitchTime = 500 + Math.floor(Math.random() * 2500);
-      let randGlitchPauseTime = 500 + Math.floor(Math.random() * 2500);
-      let glitch = new Glitch(selector, i, randLetterNumber, 200, 65, randGlitchPauseTime);
+      let randGlitchPauseTime = 5000 + Math.floor(Math.random() * 2500);
+      let glitch = new Glitch(selector, i, randLetterNumber, 1000, 100, randGlitchPauseTime); // Adjusted timeGlitch and timePerLetter
       glitch.init();
       glitch.glitch();
       glitchArray.push(glitch);
     }
+
+    // Clean up function to clear intervals on component unmount
+    return () => {
+      glitchArray.forEach(glitch => {
+        clearInterval(glitch.interval);
+      });
+    };
   }, []);
 
   return <div className="content">{text}</div>;

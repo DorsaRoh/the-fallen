@@ -6,7 +6,7 @@ import GlitchText from './components/GlitchText';
 
 export default function Home() {
   const texts = [
-    { text: "Text 1", style: {} },
+    { text: "The world as you knew it had ended--not with a triumphant bang, but with a damp whimper. Cities that had once scraped the skies are now sprawling in ruins, their skyscrapers standing like tombstones over a civilization that had consumed it all, and ultimately itself."     , style: {} },
     { text: "Text 2", style: {} },
     { text: "Text 3", style: {} },
     { text: "Text 4", style: { color: "green" } },
@@ -15,6 +15,15 @@ export default function Home() {
   ];
 
   const [currentIndex, setCurrentIndex] = useState(0);
+  const [showScrollHint, setShowScrollHint] = useState(false);
+  const textContainerRef = useRef(null);
+
+  useEffect(() => {
+    if (textContainerRef.current) {
+      const container = textContainerRef.current;
+      setShowScrollHint(container.scrollHeight > container.clientHeight);
+    }
+  }, [currentIndex]);
 
   const handleNextButtonClick = () => {
     if (currentIndex < texts.length - 1) {
@@ -37,12 +46,13 @@ export default function Home() {
       <div className={styles.topTitle}>
         <GlitchText text="Title (Glitched Effect)"/>
       </div>
-      <div className={styles.textContainer}>
+      <div className={styles.textContainer} ref={textContainerRef}>
         {texts.map((item, index) => (
           <div key={index} style={{ display: index === currentIndex ? 'block' : 'none' }} className={styles.textEntry}>
             {index === currentIndex && <TypingEffect text={item.text} textStyle={item.style} />}
           </div>
         ))}
+        {showScrollHint && <div className={styles.scrollHint}>Scroll down to see more</div>}
       </div>
       <div className={styles.buttonContainer}>
         <button className={styles.btn} onClick={handleBackButtonClick} disabled={currentIndex === 0}>
