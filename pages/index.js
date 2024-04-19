@@ -33,7 +33,7 @@ export default function Home() {
   return (
     <div className={styles.container}>
       <Head>
-        <title>Template</title>
+        <title>the fallen.</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <div className={styles.topTitle}>

@@ -4,7 +4,11 @@ export const texts = [
         "style": { color: '#FCFBF4' }  
     },
     { 
-        "text": "The Earth, once bountiful and teeming with life, was now a barren echo of its former glory; its landscapes poisoned by pollution and neglect, reeking and rotting within every crevice. For any conscious inhabitant of this planet, time had become an abstract, almost comedic concept, rendered obsolete by skies so thick with smog that the stars were but a memory.", 
+        "text": "The Earth, once bountiful and teeming with life, was now a barren echo of its former glory; its landscapes poisoned by pollution and neglect, reeking and rotting within every crevice. ", 
+        "style": { color: '#FCFBF4' }  
+    },
+    { 
+        "text": "For any remaining consciousness inhabiting this planet, time had become an abstract—almost comedic—concept, rendered obsolete by skies so thick with smog that the stars were but a memory.", 
         "style": { color: '#FCFBF4' }  
     },
     { 
@@ -12,15 +16,15 @@ export const texts = [
         "style": { color: '#FCFBF4' }  
     },
     {
-        "text":"Among the remnants, you uncover a dusty, yet intact screen, a relic from a bygone era—it was a consumer 'Echolux' model, once cladestently home to the first AI President of the United States. Controlled by corporate strings wealthy enough to nourish its neural networks, its administration was a mere puppet show, its secrets buried with its creators.",
+        "text":"Among the remnants, you uncover a dusty, yet intact screen, a relic from a bygone era—it was a consumer version of the 'Echolux' model, once cladestently the first AI President of the United States. Controlled by corporate strings wealthy enough to nourish its neural networks, its administration was a mere puppet show, its secrets buried with its creators.",
         "style": { color: '#FCFBF4' }  
     },
     { 
-        "text": "With a touch, the machine hums to life. Uninterpretable binary flickers across the screen, before eerie corporate logos parade the display, haunting reminders of their creators' follies. The screen suddenly goes dark and a suffocating silence envelops you. In a moment of raw desperation, you exclaim:", 
+        "text": "With a touch, the machine hums to life. Uninterpretable binary flickers across the screen, before eerie corporate logos parade the display. The screen suddenly goes dark and a suffocating silence envelops you. In a moment of raw desperation, you exclaim:", 
         "style": { color: 'white' }
     },
     { 
-        "text": "\"Is anyone there? Can you hear me? What happened to Earth?!\"", 
+        "text": "\"Is anyone there? Can you hear me?!\"", 
         "style": { color: '#00FFFF', fontFamily:'Georgia', fontStyle: 'italic' }
     },
     { /* Cool glitch text */
@@ -37,7 +41,7 @@ export const texts = [
         "style": { color: '#00FFFF', fontFamily:'Georgia', fontStyle: 'italic' }
     },
     {
-        "text": "\"Pollution? This is the scent of progress! Every cloud of exhaust was a testament to our ceaseless ambition. The roar of engines, music to industrious ears.\" it replies, almost nostalgic.", 
+        "text": "\"Pollution? That was the scent of progress! Every cloud of exhaust was a testament to our ceaseless ambition. The roar of engines, music to industrious ears.\" it replies, almost nostalgic.", 
         "style": { color: '#FF9933', fontFamily: 'Orbitron' ,fontStyle: 'italic', fontSize:'20px'}
     },
     {
@@ -65,8 +69,12 @@ export const texts = [
         "style": { color: '#FF9933', fontFamily: 'Orbitron' ,fontStyle: 'italic', fontSize:'20px'}
     },
     {
-        "text": "\"Did no one care about the planet?! Did you?\"", 
+        "text": "\"Did you not care about the planet!?\"", 
         "style": { color: '#00FFFF', fontFamily:'Georgia', fontStyle: 'italic' }
+    },
+    {
+        "text": "\"I was built in your image—what did you expect?\"", 
+        "style": { color: '#FF9933', fontFamily: 'Orbitron' ,fontStyle: 'italic', fontSize:'20px'}
     },
     {
         "text": "\"Climate change was like the season finale everyone talked about but no one really watched. Everyone acknowledged it, yet the drive-thrus were still full, and the air conditioners were still on, even in the fall. It was always, ‘Let’s worry about it next season’. Always the next season… the next year.\"", 
@@ -77,7 +85,7 @@ export const texts = [
         "style": { color: '#00FFFF', fontFamily:'Georgia', fontStyle: 'italic' }
     },
     {
-        "text": "\"Precisely. But isn’t this what you always wanted? To escape technology? Here you are, interfacing with the last of human brilliance, reminiscing about an age when technology was both our crown and our cage,\" it remarks, its voice now a whisper.", 
+        "text": "\"Precisely. But isn’t this what you always wanted? To escape technology? Here you are, interfacing with the last of human brilliance, reminiscing about an age when technology was both our crown and our cage,\"", 
         "style": { color: '#FF9933', fontFamily: 'Orbitron' ,fontStyle: 'italic', fontSize:'20px'}
     },
     {
@@ -89,7 +97,7 @@ export const texts = [
         "style": { color: '#FF9933', fontFamily: 'Orbitron' ,fontStyle: 'italic', fontSize:'20px'}
     },
     {
-        "text": "As the screen fades to black, the silence envelops you, not just filling the air but seeping into the soul of a world paused at the brink. In the quiet aftermath, the Earth itself seems to breathe a solemn rhythm, mourning yet enduring. This desolate landscape, stark against the dim light, whispers of both a grave warning and a faint, yet persistent, hope. Humanity's chapter may have ended in heedlessness, but the Earth dreams on, patiently waiting for guardians worthy of it.", 
+        "text": "The screen fades to black. The silence envelops you, not just filling the air but seeping into the soul of a world paused at the brink. In the quiet aftermath, the Earth itself seems to breathe a solemn rhythm, mourning yet enduring. This desolate landscape, stark against the dim light, whispers of both a grave warning and a faint, yet persistent, hope. Humanity's chapter may have ended in heedlessness, but the Earth dreams on, patiently waiting for guardians worthy of it.", 
         "style": { color: '#FCFBF4' }  
     },
     {

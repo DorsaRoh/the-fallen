@@ -6,7 +6,6 @@ function MyApp({ Component, pageProps }) {
     <>
       <Head>
         <style>{`
-          
           html, body {
             height: 100%;
             overflow-x: hidden;
