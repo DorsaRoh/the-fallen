@@ -3,7 +3,7 @@ import Head from 'next/head';
 import TypingEffect from './components/TypingEffect';
 import styles from '../styles/Home.module.css';
 import GlitchText from './components/GlitchText';
-import { texts } from './text';
+import { texts } from '../utils/text';
 
 export default function Home() {
 
