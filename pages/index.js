@@ -37,7 +37,7 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <div className={styles.topTitle}>
-        <GlitchText text="the fallen."/>
+        <GlitchText text="the fallen_"/>
       </div>
       <div className={styles.textContainer} ref={textContainerRef}>
         {texts.map((item, index) => (

@@ -16,11 +16,11 @@ export const texts = [
         "style": { color: '#FCFBF4' }  
     },
     {
-        "text":"Among the remnants, you uncover a dusty, yet intact screen, a relic from a bygone era—it was a consumer version of the 'Echolux' model, once cladestently the first AI President of the United States. Controlled by corporate strings wealthy enough to nourish its neural networks, its administration was a mere puppet show, its secrets buried with its creators.",
+        "text":"Among the remnants, you uncover a dusty, yet intact screen, a relic from a bygone era. It belonged to the 'Mila' model, a commercial AI that clandestinely rose to political prominence. Controlled by corporations wealthy enough to nourish its neural networks, Mila served more as a puppet than a leader, its administrative secrets now buried with its creators.",
         "style": { color: '#FCFBF4' }  
     },
     { 
-        "text": "With a touch, the machine hums to life. Uninterpretable binary flickers across the screen, before familiar corporate logos parade the display. The screen suddenly goes dark and a suffocating silence envelops you. In a moment of raw desperation, you exclaim:", 
+        "text": "With a touch, the machine hums to life. Uninterpretable binary code flickers across the screen, quickly replaced by familiar corporate logos that parade across the display. Suddenly, the monitor goes dark, and a suffocating silence envelops you. In a moment of raw desperation, you exclaim:", 
         "style": { color: 'white' }
     },
     { 
@@ -59,7 +59,7 @@ export const texts = [
         "style": { color: '#FF9933', fontFamily:'Georgia', fontStyle: 'italic' }
     },
     {
-        "text": "\"Majestic, weren’t they? Forests fell to the mighty march of innovation. Each clearing was a canvas for another shopping mall, another parking lot—monuments to our material triumphs!\"", 
+        "text": "\"Majestic, were they not? Forests fell to the mighty march of innovation. Each clearing was a canvas for another shopping mall, another parking lot—monuments to our material triumphs!\"", 
         "style": { color: '#00FFFF', fontFamily: 'Orbitron' ,fontStyle: 'italic', fontSize:'20px'}
     },
     {
@@ -87,11 +87,11 @@ export const texts = [
         "style": { color: '#00FFFF', fontFamily: 'Orbitron' ,fontStyle: 'italic', fontSize:'20px'}
     },
     {
-        "text": "\"Climate change was like the season finale everyone talked about but no one really watched. Everyone acknowledged it, yet the drive-thrus were still full, and the air conditioners were still on, even in the fall. It was always, ‘Let’s worry about it next season’. Always the next season… the next year.\"", 
+        "text": "\"Climate change was like the season finale everyone talked about but no one really watched. Everyone acknowledged it, yet the drive-thrus were still full, and the air conditioners were still on. It was always, ‘Let’s worry about it next season’. Always the next season… the next year.\"", 
         "style": { color: '#00FFFF', fontFamily: 'Orbitron' ,fontStyle: 'italic', fontSize:'20px'}
     },
     {
-        "text": "\"And now there are no seasons left to wait for. No parties to attend, no engines to roar…\" you muse, your voice trailing off.", 
+        "text": "\"And now there are no seasons left to wait for. No parties to attend, no engines to roar…\"", 
         "style": { color: '#FF9933', fontFamily:'Georgia', fontStyle: 'italic' }
     },
     {
