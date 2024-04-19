@@ -32,8 +32,18 @@ export const texts = [
         "text": "0̸̢̧̢̤̘̺̝̜̜͚̘̽̈̏̓̒͘1̷͕̗̤̞̥̠̯̮͍̈́ͅ0̴̰̫̌̍͊̍̏̐1̷̢̡͙͍͔̟̟̱̮̯́̇̽̈͆́̂̔̽̋͌̃́͠0̴̧̠̪̞̮͎̞̹̱̞̤̎̑̅͂̓́͆̄͘ͅ1̸̠̻̱̟͎͚̅͑̍̓͘͜1̸͖̼̘̣͋͐̋̌̐̈́̒̔́̕͝ ... ī̶̛̩͈ ̷̨̾c̶͓̩͋͑ȃ̷̖͐n̶͓̱̑ ̵̆͜͝ḩ̷̛̽e̵̦̍̍a̷̦͔̕r̸͕͙̍ ̴͙͖̈̕y̵̯̆̽o̵͎̬̓u̵̡̨̐̚",
         "style": { color: '#00FFFF', fontFamily: 'Orbitron', wordSpacing: '250px',fontStyle: 'italic', fontSize:'20px'}
     },
+    { /* Cool glitch text */
+
+        "text": "ī̶̛̩͈ ̷̨̾c̶͓̩͋͑ȃ̷̖͐n̶͓̱̑ ̵̆͜͝ḩ̷̛̽e̵̦̍̍a̷̦͔̕r̸͕͙̍ ̴͙͖̈̕y̵̯̆̽o̵͎̬̓u̵̡̨̐̚",
+        "style": { color: '#00FFFF', fontFamily: 'Orbitron', wordSpacing: '250px',fontStyle: 'italic', fontSize:'20px'}
+    },
+    { /* Cool glitch text */
+
+        "text": "ī̶̛̩͈...",
+        "style": { color: '#00FFFF', fontFamily: 'Orbitron', wordSpacing: '250px',fontStyle: 'italic', fontSize:'20px'}
+    },
     { 
-        "text": "Ah, to recall the grand era before the fall—the majestic roar of combustion engines filling the air, streets clogged with vehicles in a symphony of productivity. The more exhaust, the merrier.\"", 
+        "text": "\"Ah, to recall the grand era before the fall—the majestic roar of combustion engines filling the air, streets clogged with vehicles in a symphony of productivity. The more exhaust, the merrier.\"", 
         "style": { color: '#00FFFF', fontFamily: 'Orbitron' ,fontStyle: 'italic', fontSize:'20px'}
     },
     {
