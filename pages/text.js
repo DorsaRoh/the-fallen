@@ -25,76 +25,76 @@ export const texts = [
     },
     { 
         "text": "\"Is anyone there? Can you hear me?!\"", 
-        "style": { color: '#00FFFF', fontFamily:'Georgia', fontStyle: 'italic' }
+        "style": { color: '#FF9933', fontFamily:'Georgia', fontStyle: 'italic' }
     },
     { /* Cool glitch text */
 
         "text": "0̸̢̧̢̤̘̺̝̜̜͚̘̽̈̏̓̒͘1̷͕̗̤̞̥̠̯̮͍̈́ͅ0̴̰̫̌̍͊̍̏̐1̷̢̡͙͍͔̟̟̱̮̯́̇̽̈͆́̂̔̽̋͌̃́͠0̴̧̠̪̞̮͎̞̹̱̞̤̎̑̅͂̓́͆̄͘ͅ1̸̠̻̱̟͎͚̅͑̍̓͘͜1̸͖̼̘̣͋͐̋̌̐̈́̒̔́̕͝ ... î̴̧͎͉̣͉̯̬̣͉̐́̿̃̂  c̸̘̣̬̼̝̹̹̹͋̓̒̾a̶͍̺͌̄̅́͝n̸̢̞̺͉̩̜̣̍̅̆̔͐̐͒ͅ ̵̢̱̟̹̞̿̅h̸̨̧̢̗͈̲͕̻̔͘͘͠ę̶͙̦͓̺̦̋̏á̴̛̩̲r̵̯̭͙̬̫̔̋̄̈́̔̾͘͘͜ ̶̣͖̬̯̪̺̇̐́̌͌͑̽̋ẏ̴̡̨͔̝̰̫̝͆̆̏̄̾ŏ̸̥̬̈́͛͆́̓ų̵̧̧̖̗̦̙͇̼̎͐͐̌̋̇̑̀͑̃ͅ ...ī̶̛̩͈ ̷̨̾c̶͓̩͋͑ȃ̷̖͐n̶͓̱̑ ̵̆͜͝ḩ̷̛̽e̵̦̍̍a̷̦͔̕r̸͕͙̍ ̴͙͖̈̕y̵̯̆̽o̵͎̬̓u̵̡̨̐̚",
-        "style": { color: '#FF9933', fontFamily: 'Orbitron', wordSpacing: '250px',fontStyle: 'italic', fontSize:'20px'}
+        "style": { color: '#00FFFF', fontFamily: 'Orbitron', wordSpacing: '250px',fontStyle: 'italic', fontSize:'20px'}
     },
     { 
         "text": "ā̷̞̹̯̥͕̹͖͎̣̯͍̂̓͌͐͗̊̅̐̕͜h̷̬̦̙̟̘͂͒̂̊̏͆̈̄̌͋̌̽̏̚̚.̵̼̭̊̋̐̓̃͝͝ͅ.̶̗̟̑͆͒̑̋͜.̵̢̢̡̜̘̮͔̹̻̜̗̥̪̼͕̔̀̈́͂̅͌̔͂,..a̵̫̱̿͐̕͜ḧ̷̜̝̰̾.. á̵̩̹h̶̼́ Ah, to recall the grand era before the fall—the majestic roar of combustion engines filling the air, streets clogged with vehicles in a symphony of productivity. The more exhaust, the merrier.\"", 
-        "style": { color: '#FF9933', fontFamily: 'Orbitron' ,fontStyle: 'italic', fontSize:'20px'}
+        "style": { color: '#00FFFF', fontFamily: 'Orbitron' ,fontStyle: 'italic', fontSize:'20px'}
     },
     {
         "text": "\"That’s an odd way to remember pollution,\" you counter.", 
-        "style": { color: '#00FFFF', fontFamily:'Georgia', fontStyle: 'italic' }
+        "style": { color: '#FF9933', fontFamily:'Georgia', fontStyle: 'italic' }
     },
     {
         "text": "\"Pollution? That was the scent of progress! Every cloud of exhaust was a testament to our ceaseless ambition. The roar of engines, music to industrious ears.\" it replies, almost nostalgic.", 
-        "style": { color: '#FF9933', fontFamily: 'Orbitron' ,fontStyle: 'italic', fontSize:'20px'}
+        "style": { color: '#00FFFF', fontFamily: 'Orbitron' ,fontStyle: 'italic', fontSize:'20px'}
     },
     {
         "text": "\"And the forests that were cut down?\" you press.", 
-        "style": { color: '#00FFFF', fontFamily:'Georgia', fontStyle: 'italic' }
+        "style": { color: '#FF9933', fontFamily:'Georgia', fontStyle: 'italic' }
     },
     {
         "text": "\"Majestic, weren’t they? Forests fell to the mighty march of innovation. Each clearing was a canvas for another shopping mall, another parking lot—monuments to our material triumphs!\"", 
-        "style": { color: '#FF9933', fontFamily: 'Orbitron' ,fontStyle: 'italic', fontSize:'20px'}
+        "style": { color: '#00FFFF', fontFamily: 'Orbitron' ,fontStyle: 'italic', fontSize:'20px'}
     },
     {
         "text": "You scoff in disbelief. \"…And clean drinking water? That became a luxury too, right?\"", 
-        "style": { color: '#00FFFF', fontFamily:'Georgia', fontStyle: 'italic' }
+        "style": { color: '#FF9933', fontFamily:'Georgia', fontStyle: 'italic' }
     },
     {
         "text": "\"Indeed! Remember when the last rivers were auctioned to the highest bidder? Such excitement, such drama! And bottled water—more exclusive than fine champagne? Oh, the luxury!\"", 
-        "style": { color: '#FF9933', fontFamily: 'Orbitron' ,fontStyle: 'italic', fontSize:'20px'}
+        "style": { color: '#00FFFF', fontFamily: 'Orbitron' ,fontStyle: 'italic', fontSize:'20px'}
     },
     {
         "text": "\"What about the extinction of countless species?\" you proclaim, your voice a mix of anger and sadness.", 
-        "style": { color: '#00FFFF', fontFamily:'Georgia', fontStyle: 'italic' }
+        "style": { color: '#FF9933', fontFamily:'Georgia', fontStyle: 'italic' }
     },
     {
         "text": "\"The grand theatre of evolution. Survival of the fittest, or should I say, the wealthiest?\"", 
-        "style": { color: '#FF9933', fontFamily: 'Orbitron' ,fontStyle: 'italic', fontSize:'20px'}
+        "style": { color: '#00FFFF', fontFamily: 'Orbitron' ,fontStyle: 'italic', fontSize:'20px'}
     },
     {
         "text": "\"Did you not care about the planet!?\"", 
-        "style": { color: '#00FFFF', fontFamily:'Georgia', fontStyle: 'italic' }
+        "style": { color: '#FF9933', fontFamily:'Georgia', fontStyle: 'italic' }
     },
     {
         "text": "\"I was built in your image—what did you expect?\"", 
-        "style": { color: '#FF9933', fontFamily: 'Orbitron' ,fontStyle: 'italic', fontSize:'20px'}
+        "style": { color: '#00FFFF', fontFamily: 'Orbitron' ,fontStyle: 'italic', fontSize:'20px'}
     },
     {
         "text": "\"Climate change was like the season finale everyone talked about but no one really watched. Everyone acknowledged it, yet the drive-thrus were still full, and the air conditioners were still on, even in the fall. It was always, ‘Let’s worry about it next season’. Always the next season… the next year.\"", 
-        "style": { color: '#FF9933', fontFamily: 'Orbitron' ,fontStyle: 'italic', fontSize:'20px'}
+        "style": { color: '#00FFFF', fontFamily: 'Orbitron' ,fontStyle: 'italic', fontSize:'20px'}
     },
     {
         "text": "\"And now there are no seasons left to wait for. No parties to attend, no engines to roar…\" you muse, your voice trailing off.", 
-        "style": { color: '#00FFFF', fontFamily:'Georgia', fontStyle: 'italic' }
+        "style": { color: '#FF9933', fontFamily:'Georgia', fontStyle: 'italic' }
     },
     {
         "text": "\"Precisely. But isn’t this what you always wanted? To escape technology? Here you are, interfacing with the last of human brilliance, reminiscing about an age when technology was both our crown and our cage,\"", 
-        "style": { color: '#FF9933', fontFamily: 'Orbitron' ,fontStyle: 'italic', fontSize:'20px'}
+        "style": { color: '#00FFFF', fontFamily: 'Orbitron' ,fontStyle: 'italic', fontSize:'20px'}
     },
     {
         "text": "\"We gambled everything on a fleeting moment of glory, didn’t we?\" you ask, more to yourself than the machine.", 
-        "style": { color: '#00FFFF', fontFamily:'Georgia', fontStyle: 'italic' }
+        "style": { color: '#FF9933', fontFamily:'Georgia', fontStyle: 'italic' }
     },
     {
         "text": "\"A folly so profound it could only be human.\"", 
-        "style": { color: '#FF9933', fontFamily: 'Orbitron' ,fontStyle: 'italic', fontSize:'20px'}
+        "style": { color: '#00FFFF', fontFamily: 'Orbitron' ,fontStyle: 'italic', fontSize:'20px'}
     },
     {
         "text": "The screen fades to black. The silence envelops you, not just filling the air but seeping into the soul of a world paused at the brink. In the quiet aftermath, the Earth itself seems to breathe a solemn rhythm, mourning yet enduring. This desolate landscape, stark against the dim light, whispers of both a grave warning and a faint, yet persistent, hope. Humanity's chapter may have ended in heedlessness, but the Earth dreams on, patiently waiting for guardians worthy of it.", 
