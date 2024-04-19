@@ -33,7 +33,7 @@ export const texts = [
         "style": { color: '#00FFFF', fontFamily: 'Orbitron', wordSpacing: '250px',fontStyle: 'italic', fontSize:'20px'}
     },
     { 
-        "text": "ā̷̞̹̯̥͕̹͖͎̣̯͍̂̓͌͐͗̊̅̐̕͜h̷̬̦̙̟̘͂͒̂̊̏͆̈̄̌͋̌̽̏̚̚.̵̼̭̊̋̐̓̃͝͝ͅ.̶̗̟̑͆͒̑̋͜.̵̢̢̡̜̘̮͔̹̻̜̗̥̪̼͕̔̀̈́͂̅͌̔͂,..a̵̫̱̿͐̕͜ḧ̷̜̝̰̾.. á̵̩̹h̶̼́ Ah, to recall the grand era before the fall—the majestic roar of combustion engines filling the air, streets clogged with vehicles in a symphony of productivity. The more exhaust, the merrier.\"", 
+        "text": "Ah, to recall the grand era before the fall—the majestic roar of combustion engines filling the air, streets clogged with vehicles in a symphony of productivity. The more exhaust, the merrier.\"", 
         "style": { color: '#00FFFF', fontFamily: 'Orbitron' ,fontStyle: 'italic', fontSize:'20px'}
     },
     {
@@ -97,7 +97,11 @@ export const texts = [
         "style": { color: '#00FFFF', fontFamily: 'Orbitron' ,fontStyle: 'italic', fontSize:'20px'}
     },
     {
-        "text": "The screen fades to black. The silence envelops you, not just filling the air but seeping into the soul of a world paused at the brink. In the quiet aftermath, the Earth itself seems to breathe a solemn rhythm, mourning yet enduring. This desolate landscape, stark against the dim light, whispers of both a grave warning and a faint, yet persistent, hope. Humanity's chapter may have ended in heedlessness, but the Earth dreams on, patiently waiting for guardians worthy of it.", 
+        "text": "The screen fades to black. The silence envelops you, not just filling the air but seeping into the soul of a world paused at the brink. In the quiet aftermath, the Earth itself seems to breathe a solemn rhythm.", 
+        "style": { color: '#FCFBF4' }  
+    },    
+    {
+        "text": "This desolate landscape, stark against the dim light, whispers of both a grave warning and a faint, yet persistent, hope. Humanity's chapter may have ended in heedlessness, but the Earth dreams on, patiently waiting for guardians worthy of it.", 
         "style": { color: '#FCFBF4' }  
     },
     {
