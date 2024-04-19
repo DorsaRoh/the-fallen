@@ -12,6 +12,6 @@
     "typewriter-effect": "^2.21.0"
   },
   "engines": {
-    "node": ">=18"
+    "node": "^18.0.0"
   }
 }
