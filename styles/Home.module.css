@@ -40,17 +40,37 @@
   overflow-x: hidden; /* Prevent horizontal scrolling */
 }
 
+/* Buttons */
 .btn {
-  padding: 10px 20px;
-  margin-top: 30px; /* Space above the button */
-  margin-bottom: 50px; /* Space below the button */
-  font-size: 30px;
+  margin-top: 2vh; /* Use viewport height to dynamically adjust margin */
+  margin-bottom: 20vh;
+  font-size: 30px; /* Adjust font size based on viewport width */
   color: white;
   background: transparent;
   border: none;
   cursor: pointer;
-  font-family:"Rubik Glitch";
+  font-family: "Rubik Glitch";
+  padding: 1vh 2vw; /* Dynamic padding based on viewport */
+  border: none;
 }
+
+@media (max-width: 768px) {
+  .btn {
+    font-size: 30px; /* Adjust font size based on viewport width */
+    margin-top: 3vh;
+    margin-bottom: 20vh;
+  }
+}
+
+@media (max-width: 480px) {
+  .btn {
+    font-size: 30px; /* Adjust font size based on viewport width */
+    margin-top: 5vh;
+    margin-bottom: 20vh;
+  }
+}
+
+
 
 @media (max-width: 768px) {
   .textContainer {
@@ -68,12 +88,7 @@
     margin-top: 200px;
   }
 
-  .btn {
-    padding: 8px 16px;
-    margin-top: 20px;
-    margin-bottom: 50px;
-    font-size: 24px; /* Smaller font size for button on smaller screens */
-  }
+  
 }
 
 @media (max-width: 480px) {
@@ -92,10 +107,4 @@
     margin-top: 100px;
   }
 
-  .btn {
-    padding: 5px 10px;
-    margin-top: 10px;
-    margin-bottom: 30px;
-    font-size: 20px; /* Even smaller font size for button */
-  }
 }
