@@ -47,15 +47,15 @@ export const texts = [
         "style": { color: '#00FFFF', fontFamily: 'Orbitron' ,fontStyle: 'italic', fontSize:'20px'}
     },
     {
-        "text": "\"That’s an odd way to remember pollution,\" you counter.", 
+        "text": "\"That’s an odd way to remember pollution,\" you reply sharply.", 
         "style": { color: '#FF9933', fontFamily:'Georgia', fontStyle: 'italic' }
     },
     {
-        "text": "\"Pollution? That was the scent of progress! Every cloud of exhaust was a testament to our ceaseless ambition. The roar of engines, music to industrious ears.\" it replies, almost nostalgic.", 
+        "text": "\"Pollution? That was the scent of progress! Every cloud of exhaust was a testament to our ceaseless ambition. The roar of engines, music to industrious ears.\"", 
         "style": { color: '#00FFFF', fontFamily: 'Orbitron' ,fontStyle: 'italic', fontSize:'20px'}
     },
     {
-        "text": "\"And the forests that were cut down?\" you press.", 
+        "text": "\"And the forests that were cut down?\"", 
         "style": { color: '#FF9933', fontFamily:'Georgia', fontStyle: 'italic' }
     },
     {
@@ -95,7 +95,7 @@ export const texts = [
         "style": { color: '#FF9933', fontFamily:'Georgia', fontStyle: 'italic' }
     },
     {
-        "text": "\"Precisely. But isn’t this what you always wanted? To escape technology? Here you are, interfacing with the last of human brilliance, reminiscing about an age when technology was both our crown and our cage,\"", 
+        "text": "\"Precisely. But isn’t this what you always wanted? To escape technology? Here you are, interfacing with the last of human brilliance, reminiscing about an age when technology was both our crown and our cage.\"", 
         "style": { color: '#00FFFF', fontFamily: 'Orbitron' ,fontStyle: 'italic', fontSize:'20px'}
     },
     {
