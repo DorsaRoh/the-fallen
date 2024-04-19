@@ -2,11 +2,11 @@ import React, { useRef, useEffect, useState } from "react";
 import Typewriter from 'typewriter-effect';
 
 export default function TypingEffect({ text, textStyle }) {
-  const textRef = useRef(null);
-  const [key, setKey] = useState(0);
-
+  const textRef = useRef(null); // Reference to the text container
+  const [key, setKey] = useState(0); // Key to force re-render
 
   const handleNext = () => {
+    // Increment key to re-trigger Typewriter effect
     setKey(key + 1);
   };
 
@@ -19,10 +19,11 @@ export default function TypingEffect({ text, textStyle }) {
             typewriter.typeString(text)
               .start()
               .callFunction(() => {
+                // Hide the cursor at the end of typing
                 if (textRef.current) {
                   const cursorElement = textRef.current.querySelector('.Typewriter__cursor');
                   if (cursorElement) {
-                    cursorElement.style.display = 'none'; // hide the cursor using CSS
+                    cursorElement.style.display = 'none';
                   }
                 }
               });

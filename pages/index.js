@@ -3,16 +3,9 @@ import Head from 'next/head';
 import TypingEffect from './components/TypingEffect';
 import styles from '../styles/Home.module.css';
 import GlitchText from './components/GlitchText';
+import { texts } from './text';
 
 export default function Home() {
-  const texts = [
-    { text: "The world as you knew it had ended--not with a triumphant bang, but with a damp whimper. Cities that had once scraped the skies are now sprawling in ruins, their skyscrapers standing like tombstones over a civilization that had consumed it all, and ultimately itself."     , style: {} },
-    { text: "Text 2", style: {} },
-    { text: "Text 3", style: {} },
-    { text: "Text 4", style: { color: "green" } },
-    { text: "Etc..", style: { color: "green" } },
-    // Additional texts...
-  ];
 
   const [currentIndex, setCurrentIndex] = useState(0);
   const [showScrollHint, setShowScrollHint] = useState(false);
@@ -44,7 +37,7 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <div className={styles.topTitle}>
-        <GlitchText text="Title (Glitched Effect)"/>
+        <GlitchText text="the fallen."/>
       </div>
       <div className={styles.textContainer} ref={textContainerRef}>
         {texts.map((item, index) => (

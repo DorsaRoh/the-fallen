@@ -1,5 +1,4 @@
-/* Import fonts globally in _app.js or a global CSS file to avoid repeating imports */
-@import url('https://fonts.googleapis.com/css2?family=Jersey+10&family=Libre+Barcode+39&family=Ojuju:wght@200..800&family=Orbitron:wght@400..900&family=Oxanium:wght@200..800&family=Rubik+Glitch&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Jersey+10&family=Jersey+15+Charted&family=Libre+Barcode+39&family=Ojuju:wght@200..800&family=Orbitron:wght@400..900&family=Oxanium:wght@200..800&family=Rubik+Glitch&display=swap');
 
 .container {
   display: flex;
@@ -24,7 +23,7 @@
   padding: 20px;
   margin-left:20%;
   margin-right:20%;
-  mask-image: linear-gradient(transparent,  black 90%, transparent);
+  /* mask-image: linear-gradient(transparent, black 90%, transparent);*/
   scrollbar-width: none;
   line-height:1.2em;
   margin-bottom:2%;
