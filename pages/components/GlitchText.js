@@ -1,3 +1,5 @@
+/* Credit to Alexandre Rivaux ! */
+
 import React, { useEffect } from 'react';
 
 const chars = "☺Σ×Π#-_¯—→↓↑←0123456789ABCDEFGHIJKLMNOPQRSTUVWXTZ";
