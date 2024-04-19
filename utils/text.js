@@ -20,7 +20,7 @@ export const texts = [
         "style": { color: '#FCFBF4' }  
     },
     { 
-        "text": "With a touch, the machine hums to life. Uninterpretable binary flickers across the screen, before eerie corporate logos parade the display. The screen suddenly goes dark and a suffocating silence envelops you. In a moment of raw desperation, you exclaim:", 
+        "text": "With a touch, the machine hums to life. Uninterpretable binary flickers across the screen, before familiar corporate logos parade the display. The screen suddenly goes dark and a suffocating silence envelops you. In a moment of raw desperation, you exclaim:", 
         "style": { color: 'white' }
     },
     { 
@@ -29,7 +29,7 @@ export const texts = [
     },
     { /* Cool glitch text */
 
-        "text": "0̸̢̧̢̤̘̺̝̜̜͚̘̽̈̏̓̒͘1̷͕̗̤̞̥̠̯̮͍̈́ͅ0̴̰̫̌̍͊̍̏̐1̷̢̡͙͍͔̟̟̱̮̯́̇̽̈͆́̂̔̽̋͌̃́͠0̴̧̠̪̞̮͎̞̹̱̞̤̎̑̅͂̓́͆̄͘ͅ1̸̠̻̱̟͎͚̅͑̍̓͘͜1̸͖̼̘̣͋͐̋̌̐̈́̒̔́̕͝ ... î̴̧͎͉̣͉̯̬̣͉̐́̿̃̂  c̸̘̣̬̼̝̹̹̹͋̓̒̾a̶͍̺͌̄̅́͝n̸̢̞̺͉̩̜̣̍̅̆̔͐̐͒ͅ ̵̢̱̟̹̞̿̅h̸̨̧̢̗͈̲͕̻̔͘͘͠ę̶͙̦͓̺̦̋̏á̴̛̩̲r̵̯̭͙̬̫̔̋̄̈́̔̾͘͘͜ ̶̣͖̬̯̪̺̇̐́̌͌͑̽̋ẏ̴̡̨͔̝̰̫̝͆̆̏̄̾ŏ̸̥̬̈́͛͆́̓ų̵̧̧̖̗̦̙͇̼̎͐͐̌̋̇̑̀͑̃ͅ ...ī̶̛̩͈ ̷̨̾c̶͓̩͋͑ȃ̷̖͐n̶͓̱̑ ̵̆͜͝ḩ̷̛̽e̵̦̍̍a̷̦͔̕r̸͕͙̍ ̴͙͖̈̕y̵̯̆̽o̵͎̬̓u̵̡̨̐̚",
+        "text": "0̸̢̧̢̤̘̺̝̜̜͚̘̽̈̏̓̒͘1̷͕̗̤̞̥̠̯̮͍̈́ͅ0̴̰̫̌̍͊̍̏̐1̷̢̡͙͍͔̟̟̱̮̯́̇̽̈͆́̂̔̽̋͌̃́͠0̴̧̠̪̞̮͎̞̹̱̞̤̎̑̅͂̓́͆̄͘ͅ1̸̠̻̱̟͎͚̅͑̍̓͘͜1̸͖̼̘̣͋͐̋̌̐̈́̒̔́̕͝ ... ī̶̛̩͈ ̷̨̾c̶͓̩͋͑ȃ̷̖͐n̶͓̱̑ ̵̆͜͝ḩ̷̛̽e̵̦̍̍a̷̦͔̕r̸͕͙̍ ̴͙͖̈̕y̵̯̆̽o̵͎̬̓u̵̡̨̐̚",
         "style": { color: '#00FFFF', fontFamily: 'Orbitron', wordSpacing: '250px',fontStyle: 'italic', fontSize:'20px'}
     },
     { 
