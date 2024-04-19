@@ -1,3 +1,3 @@
-# the fallen.
+# the fallen_
 
-a letter to future humans. were we right?
+a letter to future humans, a speculative fiction short story.
