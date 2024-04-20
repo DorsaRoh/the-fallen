@@ -40,11 +40,30 @@
   overflow-x: hidden; /* Prevent horizontal scrolling */
 }
 
+
+.footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  padding: 20px;
+  margin-right:10%;
+  font-size:15px;
+  font-family:'Oxanium';
+  color: white;
+  text-align: right;
+}
+
+.footer a {
+  color: rgb(77, 164, 247);
+  text-decoration: none;
+}
+
+
 /* Buttons */
 .btn {
-  margin-top: 2vh; /* Use viewport height to dynamically adjust margin */
+  margin-top: 2vh; 
   margin-bottom: 20vh;
-  font-size: 30px; /* Adjust font size based on viewport width */
+  font-size: 30px; 
   color: white;
   background: transparent;
   border: none;
@@ -56,7 +75,7 @@
 
 @media (max-width: 768px) {
   .btn {
-    font-size: 30px; /* Adjust font size based on viewport width */
+    font-size: 30px; 
     margin-top: 3vh;
     margin-bottom: 20vh;
   }
@@ -64,7 +83,7 @@
 
 @media (max-width: 480px) {
   .btn {
-    font-size: 30px; /* Adjust font size based on viewport width */
+    font-size: 30px; 
     margin-top: 5vh;
     margin-bottom: 20vh;
   }
@@ -76,7 +95,11 @@
   .textContainer {
     padding: 10px 5px;
     margin-top: 20px;
-    height: 75vh; /* Adjust height for smaller screens */
+    height: 75vh; 
+  }
+
+  .footer {
+    font-size: 20px; 
   }
 
   .container {
@@ -95,11 +118,11 @@
   .textContainer {
     padding: 5px 2px;
     margin-top: 10px;
-    height: 65vh; /* Further adjust height for very small screens */
+    height: 65vh; 
   }
 
   .container {
-    font-size: 24px; /* Even smaller font size for smallest screens */
+    font-size: 24px; 
   }
 
   .title {
@@ -107,4 +130,7 @@
     margin-top: 100px;
   }
 
+  .footer {
+    font-size: 10px; 
+  }
 }

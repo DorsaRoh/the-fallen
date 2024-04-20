@@ -6,7 +6,6 @@ import GlitchText from './components/GlitchText';
 import { texts } from '../utils/text';
 
 export default function Home() {
-
   const [currentIndex, setCurrentIndex] = useState(0);
   const [showScrollHint, setShowScrollHint] = useState(false);
   const textContainerRef = useRef(null);
@@ -33,7 +32,7 @@ export default function Home() {
   return (
     <div className={styles.container}>
       <Head>
-        <title>the fallen.</title>
+        <title>the fallen</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <div className={styles.topTitle}>
@@ -45,16 +44,21 @@ export default function Home() {
             {index === currentIndex && <TypingEffect text={item.text} textStyle={item.style} />}
           </div>
         ))}
-        {showScrollHint && <div className={styles.scrollHint}>Scroll down to see more</div>}
       </div>
       <div className={styles.buttonContainer}>
         <button className={styles.btn} onClick={handleBackButtonClick} disabled={currentIndex === 0}>
-        <GlitchText text="⟵ back"></GlitchText>
+          <GlitchText text="⟵ back"></GlitchText>
         </button>
         <button className={styles.btn} onClick={handleNextButtonClick} disabled={currentIndex === texts.length - 1}>
-        <GlitchText text="next ⟶"></GlitchText>
+          <GlitchText text="next ⟶"></GlitchText>
         </button>
       </div>
+      <footer className={styles.footer}>
+        <span>Made by </span>
+        <a href="https://github.com/DorsaRoh/the-fallen" target="_blank" rel="noopener noreferrer">
+        Dorsa Rohani
+        </a>
+      </footer>
     </div>
   );
 }
